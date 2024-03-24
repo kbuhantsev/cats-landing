@@ -10,7 +10,12 @@ export default {
     extend: {
       colors: {
         accentPink: "#fca5a5",
+        accentRed: "#dc2626",
         textColor: "#27272a",
+      },
+      fontFamily: {
+        marckScript: ['"Marck Script"', "sans-serif"],
+        // Add more custom font families as needed
       },
     },
   },
