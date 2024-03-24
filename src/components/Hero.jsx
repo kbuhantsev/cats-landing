@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative">
+    <section id="hero" className="relative">
       <picture>
         <source
           media="(max-width: 640px)"
