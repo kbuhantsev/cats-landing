@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Головна", id: "header" },
   { name: "Опис", id: "description" },
-  { name: "Особливості", id: "particular" },
+  { name: "Можливості", id: "particular" },
   { name: "Відео огляд", id: "video" },
   { name: "Замовити", id: "order" },
 ];

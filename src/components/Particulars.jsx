@@ -66,7 +66,7 @@ const Particulars = () => {
         </div>
         <div className="bg-accentPink px-2 py-2 text-xl">
           <ul className="list-inside list-image-[url(./images/icons/cat.svg)] ">
-            <li className="">Доступні 2 кольори: біла та рижа</li>
+            <li className="">Доступні 2 кольори: біла та руда</li>
             <li>Тип живлення - 3 батарейки “АА” (не додаються)</li>
             <li>Розмір кішки - 25 см × 22 см × 18 см</li>
             <li>Розмір упаковки - 36 см × 20 см × 21 см</li>

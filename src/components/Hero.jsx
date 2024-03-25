@@ -14,7 +14,7 @@ const Hero = () => {
       </picture>
 
       <h1
-        className="absolute left-0 top-0 w-full bg-accentPink text-center font-marckScript text-5xl font-bold text-white
+        className="absolute left-0 top-0 w-full bg-accentPink text-center font-marckScript text-4xl font-bold text-white
       sm:relative sm:left-auto sm:top-auto sm:flex sm:rotate-0 sm:justify-center"
       >
         Інтерактивна кішка
