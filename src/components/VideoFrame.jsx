@@ -1,8 +1,18 @@
+import Section from "./Section";
+
 const VideoFrame = () => {
   return (
-    <h2 id="video" className="h-[300px] bg-red-300">
-      VideoFrame https://www.youtube.com/watch?v=leiKK8MuWDU
-    </h2>
+    <Section id="video" title="Відео огляд">
+      <div className="aspect-video">
+        <iframe
+          className="h-full w-full"
+          src="https://www.youtube.com/embed/leiKK8MuWDU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </Section>
   );
 };
 

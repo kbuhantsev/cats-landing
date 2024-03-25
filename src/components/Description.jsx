@@ -1,10 +1,9 @@
-import SectionTitle from "./SectionTitle";
+import Section from "./Section";
 
 const Description = () => {
   return (
-    <div className="container">
-      <SectionTitle title="Опис" />
-      <p className="px-2 py-2">
+    <Section title="Опис" id="description">
+      <p className="px-2 py-2 text-xl">
         &nbsp;&nbsp;&nbsp;&nbsp;Зануртеся у світ ніжності та радості з нашою
         м&apos;якою інтерактивною іграшкою - мамою Кісою! Ця дивовижна іграшка
         не лише приносить у ваш дім тепло та затишок, але й&nbsp;
@@ -29,7 +28,7 @@ const Description = () => {
         нашою м&apos;якою інтерактивною іграшкою - мамою Кісою! Подаруйте вашій
         дитині світ ніжності, турботи та радості вже сьогодні.
       </p>
-    </div>
+    </Section>
   );
 };
 

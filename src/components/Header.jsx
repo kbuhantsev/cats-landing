@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Головна", id: "header" },
-  { name: "Опис", id: "hero" },
+  { name: "Опис", id: "description" },
   { name: "Особливості", id: "particular" },
   { name: "Відео огляд", id: "video" },
   { name: "Замовити", id: "order" },
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="mr-auto flex h-8 w-8 sm:hidden">
           <button
             type="button"
-            className="text-textColor -m-2.5 inline-flex  items-center justify-center rounded-md p-2.5"
+            className="-m-2.5 inline-flex items-center  justify-center rounded-md p-2.5 text-textColor"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -39,7 +39,7 @@ const Header = () => {
             <a
               key={item.name}
               href="#"
-              className="hover:text-accentPink mr-5 hover:cursor-pointer"
+              className="mr-5 hover:cursor-pointer hover:text-accentPink"
               onClick={() => handleClickScroll(item.id)}
             >
               {item.name}
@@ -71,7 +71,7 @@ const Header = () => {
                     <a
                       key={item.name}
                       href="#"
-                      className="hover:text-accentPink mx-3 block rounded-lg px-4 py-6 text-3xl font-semibold leading-7 text-gray-900"
+                      className="mx-3 block rounded-lg px-4 py-6 text-3xl font-semibold leading-7 text-gray-900 hover:text-accentPink"
                       onClick={() => {
                         setMobileMenuOpen(false);
                         handleClickScroll(item.id);
